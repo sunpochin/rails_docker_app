@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @message = "static page 這是一個靜態網頁 yay hey"
+    @message = "static page 這是一個動態態網頁 yay hey"
+    @posts = Post.all
   end
 end
