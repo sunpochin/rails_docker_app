@@ -3,6 +3,9 @@
 # code along with this blog about rails in docker
   # https://dev.to/raphael_jambalos/more-than-hello-world-in-docker-run-rails-sidekiq-web-apps-in-docker-1b37
 
+# 
+aws ecr get-login-password | docker login --username AWS --password-stdin 789819000571.dkr.ecr.ap-southeast-1.amazonaws.com/sample-docker-rails-app:v1.0.0
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

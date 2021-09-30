@@ -6,6 +6,7 @@ development:
   password:
   pool: 5
   database: sample_app_docker_development
+
 staging:
   adapter: postgresql
   encoding: unicode
